@@ -1,0 +1,35 @@
+#headLink
+{
+	text-decoration:none;
+	color:green;
+	font-size:20px;
+}
+#subLink
+{
+	text-decoration:none;
+	color:blue;
+	font-size:20px;
+}
+h1.style
+{
+	font-size:50px;
+}
+div.sportHeader
+{
+	background-color:#ffe710;
+	height:89px;
+}
+div.tabs
+{
+	background-color:#000000;
+	height:30px;
+	width:1300px;
+	float:right;
+}
+#tabLink
+{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
+

@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bbcstyle.css">
+</head>
 <body>
 
-<div id="Sport header" style="background-color:#ffe710;">
-<h1>SPORT</h1></div>
+<div class="sportHeader">
+	<h1>SPORT</h1>
+	<div class="tabs">
+		<a id="tabLink" href="http://www.bbc.co.uk/sport/football">Football</a>
+		<a id="tabLink" href="http://www.bbc.co.uk/sport/formula-one">Formula 1</a>
+		<a id="tabLink" href="http://www.bbc.co.uk/sport/cricket">Cricket</a>
+		<a id="tabLink" href="http://www.bbc.co.uk/sport/rugby-union">Rugby Union</a>
+		<a id="tabLink" href="http://www.bbc.co.uk/sport/rugby-league">Rugby League</a>
+		<a id="tabLink" href="http://www.bbc.co.uk/sport/tennis">Tennis</a>
+		<a id="tabLink" href="http://www.bbc.co.uk/sport/golf">Golf</a>
+		<a id="tabLink" href="http://www.bbc.co.uk/sport/athletics">Athletics</a>
+	</div>
+</div>
 
-<div id="LC" style="background-color:#FFD700;width:600px;float:left;">
+<div id="LC" style="background-color:#FFFFFF;width:600px;float:left;">
 <img border="0" src="L1.jpg" alt="L1" width="590" height="325">
 	<div id="Eng v Aus Header" style="background-color:#0087ff;">
 	<h1>The Ashes: England v Austrailia <b>LIVE<b/></h1>
 	</div>
 	Live text and radio commentary as Chris Rogers makes 84 and Michael Clarke an unbeaten fifty for Austrailia in the third Test.
 	<br>
-	<h1>Video & Audio</h1>
+	<h1 class="style">Video & Audio</h1>
 	<video width="150" height="150" controls>
   		<source src="movie.mp4" type="video/mp4">
   		<source src="movie.ogg" type="video/ogg">
@@ -37,120 +50,319 @@
   		<source src="movie.mp4" type="video/mp4">
   		<source src="movie.ogg" type="video/ogg">
 	</video>
-	<h1>Feauture & Analysis </h1>
-	<img border="0" src="L2.jpg" alt="L2" width="250" height="150">
-	<a href="">Championship club-by-club preview</a> 
-	With the new Football Leauge season beginnig this weekend, BBC Sport presents its guide to the Championship
-	<br>
-	<br>
-	<img border="0" src="L3.jpg" alt="L3" width="50" height="50">
-	<a href="">Lost bikes & partying with Olympians</a> 
-	What is it like being a new world champion? BBC Sport's Ollie Williams looks at 24 hours in the life of BMX rider Liam Phillips
-	<br>
-	<img border="0" src="L4.jpg" alt="L4" width="50" height="50">
-	<a href="">What is it like to dive into water from 27m?</a> 
-	Tom Daley's former diving partner Blake Aldridge discusses the perils of hitting water from 27 metres
-	<br>
-	<img border="0" src="L5.jpg" alt="L5" width="50" height="50">
-	<a href="">How a crucial Ashes error can ruin your life</a>
-	The story of how one-Test wonder Fred Tate cost ENgland the Ashes and spent the rest of his life in infamy and poverty
-	<br>
-	<img border="0" src="L6.jpg" alt="L6" width="50" height="50">
-	<a href="">Moyes 'slept in car' on way to the top</a>
-	Form sleeping in a car to replacing Sir Alex Ferguson at Manchester United, David Moyes's story in his own words
-	<br> 
-	<img border="0" src="L7.jpg" alt="L7" width="50" height="50">
-	<a href="">Why is Australia's batting in crisis?</a>
-	From Twenty20 cricket to the growth of Aussie Rules, BBC Sport looks at reasons for the demise of Austrailia's Test batting
-	<br> 
-	<img border="0" src="L8.jpg" alt="L8" width="50" height="50">
-	<a href="">Must-not-miss sport on the BBC</a>
-	Your guide to the latest sporting events on the BBC, including the Ashes, the Football Leauge and the Women's Open. 
+	<h1 class="style">Feauture & Analysis </h1>
+	<div id="LC" style="background-color:#FFFFFF;width:250px;float:left;">
+			<img border="0" src="L2.jpg" alt="L2" width="250" height="150">
+	</div>
+	<div id="LC" style="background-color:#FFFFFF;width:350px;float:left;">
+		<a id="subLink" href="">Championship club-by-club preview</a>
+		<br>
+		With the new Football Leauge season beginnig this weekend, BBC Sport presents its guide to the Championship
+	</div>
+	<div style="height:200px;">
+	</div>
+	<div style="margin:25px;">
+		<img border="0" src="L3.jpg" alt="L3" width="50" height="50">
+		<a id="subLink" href="">Lost bikes & partying with Olympians</a> 
+		What is it like being a new world champion? BBC Sport's Ollie Williams looks at 24 hours in the life of BMX rider Liam Phillips
+		<br>
+		<img border="0" src="L4.jpg" alt="L4" width="50" height="50">
+		<a id="subLink" ref="">What is it like to dive into water from 27m?</a> 
+		Tom Daley's former diving partner Blake Aldridge discusses the perils of hitting water from 27 metres
+		<br>
+		<img border="0" src="L5.jpg" alt="L5" width="50" height="50">
+		<a id="subLink" href="">How a crucial Ashes error can ruin your life</a>
+		The story of how one-Test wonder Fred Tate cost ENgland the Ashes and spent the rest of his life in infamy and poverty
+		<br>
+		<img border="0" src="L6.jpg" alt="L6" width="50" height="50">
+		<a id="subLink" href="">Moyes 'slept in car' on way to the top</a>
+		Form sleeping in a car to replacing Sir Alex Ferguson at Manchester United, David Moyes's story in his own words
+		<br> 
+		<img border="0" src="L7.jpg" alt="L7" width="50" height="50">
+		<a id="subLink" href="">Why is Australia's batting in crisis?</a>
+		From Twenty20 cricket to the growth of Aussie Rules, BBC Sport looks at reasons for the demise of Austrailia's Test batting
+		<br> 
+		<img border="0" src="L8.jpg" alt="L8" width="50" height="50">
+		<a id="subLink" href="">Must-not-miss sport on the BBC</a>
+		Your guide to the latest sporting events on the BBC, including the Ashes, the Football Leauge and the Women's Open. 
+	</div>
+	<h1 class="style">Around BBC Sport</h1>
+	<img border="0" src="L9.jpg" alt="L9" width="150" height="100">
+	<a id="subLink" href="">Ashes venues: Old Trafford</a>
+	A guide to Old Trafford, vanue for the third Ashes  Test, including statistics and a look at some classic encounters
+	29 Jul 2013 
+	<a id="headLink" href="http://www.bbc.co.uk/sport/cricket">Cricket</a>
+	<h1 class="style">More Sports</h1>
+		<div id="LLC" style="background-color:#ffffff;width:200px;float:left;">
+			<a id="headLink" href="http://www.bbc.co.uk/sport/athletics">Athletics</a>
+			<br>
+			<a id="subLink" href="">Injured Ennis-Hill out of the worlds</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/cycling">Cycling</a>
+			<br>
+			<a id="subLink" href="">Swift misses out at Tour of Poland</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/formula-one">Formula 1</a>
+			<br>
+			<a id="subLink" href="">Alonso rebunked by Ferrari president</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/moto-gp">Moto GP</a>
+			<br>
+			<a id="subLink" href="">Tech 3 boss confirms Lowes interest</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/rugby-union">Rugby Union</a>
+			<br>
+			<a id="subLink" href="">Exceter's Nowell makes Saxons squad</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/tennis">Tennis</a>
+			<br>
+			<a id="subLink" href="">Murray and Peers win Gstaad doubles</a>
+		</div>
+		<div id="LMC" style="background-color:#ffffff;width:200px;float:left;">
+			<a id="headLink" href="http://www.bbc.co.uk/sport/boxing">Boxing</a>
+			<br>
+			<a id="subLink" href="">Joshua is the "real deal"- Hearn</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/diability-sports">Disability Sports</a>
+			<br>
+			<a id="subLink" href="">Champion Jones, 15, eyes Rio place</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/golf">Golf</a>
+			<br>
+			<a id="subLink" href="">Women's british open leaderboards</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/olympics">Olympics</a>
+			<br>
+			<a id="subLink" href="">Rutherfords selected for worlds</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/snooker">Snooker</a>
+			<br>
+			<a id="subLink" href="">Carter given cancer all-clear</a>
+			<br>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/winter-sports">Winter Sports</a>
+			<br>
+			<a id="subLink" href="">Jackson suffered ruptured Achillies</a>
+		</div>
+		<div id="LRC" style="background-color:#ffffff;width:200px;float:left;">
+			<a id="headLink" href="http://www.bbc.co.uk/sport/cricket">Cricket</a>
+			<br>
+			<a id="subLink" href="">England weary of past mistake- Cook</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/football">Football</a>
+			<br>
+			<a id="subLink" href="">Arsenal give support to Sansom</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/horse-racing">Horse Racing</a>
+			<br>
+			<a id="subLink" href="">Tornado gain Dawn Approach revenge</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/rugby-leauge">Rugby Leauge</a>
+			<br>
+			<a id="subLink" href="">Henderson extends Catalans contract</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/swimming">Swimming</a>
+			<br>
+			<a id="subLink" href="">Meilutye & Ledecky star at Worlds</a>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+		<br>
+	<h1 class="style">Around the UK</h1>
+		<div id="BLLC" style="background-color:#ffffff;width:200px;float:left;">
+			<a id="headLink" href="http://www.bbc.co.uk/england">England</a>
+			<br>
+			<a id="subLink" href="">Manx player to face Phil Taylor</a>
+			<br>
+			<br>
+			<a id="headLink" href="http://www.bbc.co.uk/sport/northern-ireland">Northern Ireland</a>
+			<br>
+			<a id="subLink" href="">McMahon sets record in Barcelona</a>
+		</div>
+		<div id="BLMC" style="background-color:#ffffff;width:200px;float:left;">
+			<a id="headLink" href="http://www.bbc.co.uk/sport/scotland">Scotland</a>
+			<br>
+			<a id="subLink" href="">Scot 'need atmosphere makeover'</a>
+		</div>
+		<div id="LRC" style="background-color:#ffffff;width:200px;float:left;">
+			<a id="headLink" href="http://www.bbc.co.uk/sport/northern-ireland">Wales</a>
+			<br>
+			<a id="subLink" href="">Caulker leaves spurs for Cardiff</a>
+		</div>
+
 </div>
 
-<div id="MC" style="background-color:#ffffff;width:200px;float:left;">
+<div class="size" id="MC" size class="size" style="background-color:#ffffff;width:200px;float:left;">
 	<img border="0" src="M1.jpg" alt="M1" width="180" height="130">
-	<a href="" target="_blank">Tottenham agree 26m deal for strike Soldado</a>
+	<a id="subLink" href="" >Tottenham agree 26m deal for strike Soldado</a>
 	<br>
-	<a href="http://www.bbc.co.uk/sport/football">Football</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/football">Football</a>
 	<img border="0" src="M2.jpg" alt="M2" width="180" height="130">
-	<a href="" target="_blank">Austrailian MP criticises umpires decision'</a>
+	<a id="subLink" href="" >Austrailian MP criticises umpires decision'</a>
 	<br>
 	Khawaja given out controversially after television review.
 	<br>
-	<a href="http://www.bbc.co.uk/sport/cricket">Cricket</a>
-	<h2>Headlines<h2>
-	<a href="http://www.bbc.co.uk/sport/football">Football</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/cricket">Cricket</a>
+	<h1 class="style">Headlines<h1>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/football">Football</a>
 	<br>
-	<a href="">Real 'in talks to find Bale soloution'</a>
-	<br>
-	<br>
-	<a href="http://www.bbc.co.uk/sport/football">Football</a>
-	<br>
-	<a href="http://www.bbc.co.uk/sport/cricket">Liverpool must keep Saurze- Gerrard</a>
+	<a id="subLink" href="">Real 'in talks to find Bale soloution'</a>
 	<br>
 	<br>
-	<a href="http://www.bbc.co.uk/sport/golf">Golf</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/football">Football</a>
 	<br>
-	<a href="">Park slips back after strong British Open start</a>
-	<br>
-	<br>
-	<a href="http://www.bbc.co.uk/sport/tennis">Tennis</a>
-	<br>
-	<a href="">Hingis wins on return after six-year absense</a>
+	<a id="subLink" href="http://www.bbc.co.uk/sport/cricket">Liverpool must keep Saurze- Gerrard</a>
 	<br>
 	<br>
-	<a href="http://www.bbc.co.uk/sport/athletics">Athletics</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/golf">Golf</a>
 	<br>
-	<a href="">Ennis-Hill 'made right call' over Worlds</a>
-	<br>
-	<br>
-	<a href="http://www.bbc.co.uk/sport/football">Football</a>
-	<br>
-	<a href="">QPR Sign Burnley striker Austin</a>
+	<a id="subLink" href="">Park slips back after strong British Open start</a>
 	<br>
 	<br>
-	<a href="http://www.bbc.co.uk/sport/diving">Diving</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/tennis">Tennis</a>
 	<br>
-	<a href="">GB's Hunt wins high diving silver at Worlds</a>
-	<br>
-	<a href="">BBC Sport updates app- plus Kindle FIre launch</a>
+	<a id="subLink" href="">Hingis wins on return after six-year absense</a>
 	<br>
 	<br>
-	<a href="http://www.bbc.co.uk/sport/swimming">Swimming</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/athletics">Athletics</a>
 	<br>
-	<a href="">Le Clos wins Worls Championship gold</a>
-	<br>
-	<br>
-	<a href="http://www.bbc.co.uk/sport/tennis">Tennis</a>
-	<br>
-	<a href="">Robson swept aside by Kvitova in California</a>
+	<a id="subLink" href="">Ennis-Hill 'made right call' over Worlds</a>
 	<br>
 	<br>
-	<a href="http://www.bbc.co.uk/sport/golf">Golf</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/football">Football</a>
 	<br>
-	<a href="">Mcllroy hopes for Arkon revival</a>
-	<br>
-	<br>
-	<a href="http://www.bbc.co.uk/sport/diving">Diving</a>
-	<br>
-	<a href="">Louganis wants Olympic high diving</a>
+	<a id="subLink" href="">QPR Sign Burnley striker Austin</a>
 	<br>
 	<br>
-	<a href="http://www.bbc.co.uk/sport/rugby-union">Rugby Union</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/diving">Diving</a>
 	<br>
-	<a href="">Faletau set for Dragons future talks</a>
+	<a id="subLink" href="">GB's Hunt wins high diving silver at Worlds</a>
+	<br>
+	<a id="subLink" href="">BBC Sport updates app- plus Kindle FIre launch</a>
 	<br>
 	<br>
-	<a href="http://www.bbc.co.uk/sport/rugby-league">Rugby Leauge</a>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/swimming">Swimming</a>
 	<br>
-	<a href="">Bradford to sign Warrington's Blythe</a>
-
-
+	<a id="subLink" href="">Le Clos wins Worls Championship gold</a>
+	<br>
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/tennis">Tennis</a>
+	<br>
+	<a id="subLink" href="">Robson swept aside by Kvitova in California</a>
+	<br>
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/golf">Golf</a>
+	<br>
+	<a id="subLink" href="">Mcllroy hopes for Arkon revival</a>
+	<br>
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/diving">Diving</a>
+	<br>
+	<a id="subLink" href="">Louganis wants Olympic high diving</a>
+	<br>
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/rugby-union">Rugby Union</a>
+	<br>
+	<a id="subLink" href="">Faletau set for Dragons future talks</a>
+	<br>
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/sport/rugby-league">Rugby Leauge</a>
+	<br>
+	<a id="subLink" href="">Bradford to sign Warrington's Blythe</a>
+	<br>
+	<br>
+	<h1>Around the UK</h1>
+	<img border="0" src="M3.jpg" alt="M3" width="190" height="190">
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/england">England</a>
+	<br>
+	<a id="subLink" href="">The Ashes: England v Austrailia</a>
+	<br>
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/scotland">Scotland</a>
+	<br>
+	<a id="subLink" href="">Scots 'need atmosphere makeover'</a>
+	<br>
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/wales">Wales</a>
+	<br>
+	<a id="subLink" href="">Real Madrid in Bale talks- Ancelotti</a>
+	<br>
+	<br>
+	<a id="headLink" href="http://www.bbc.co.uk/scotland">Northern Ireland</a>
+	<br>
+	<a id="subLink" href="">McMahon sets record in Barcelona</a>
+	<br>
+	<br>
+	<h2>Photo Galleries</h2>
+	<img border="0" src="M4.jpg" alt="M4" width="190" height="120">
+	<a href="">Anniversary Games</a>
+	<br>
+	<br>
+	<br>
+	<h2>Programmes</h2>
+	<br>
+	<a id="subLink" href="">Sports on the BBC</a>
+	<br>
+	<a id="subLink" href="">Match of the Day</a>
+	<br>
+	<a id="subLink" href="">Football Focus</a>
+	<br>
+	<a id="subLink" href="">Sports Personality</a>
+	<br>
+	<a id="subLink" href="">Scrum V</a>
+	<br>
+	<a id="subLink" href="">The Super Leauge Show</a>
+	<br>
+	<a id="subLink" href="">Ski Sunday</a>
+	<br>
+	<a id="subLink" href="">606</a>
+	<br>
+	<a id="subLink" href="">Sportscene</a>
+	<br>
+	<a id="subLink" href="">World Football</a>
+	<br>
+	<a id="subLink" href="">A Question of Sport</a>
+	<br>
+	<a id="subLink" href="">Sportsweek</a>
+	<br>
+	<a id="subLink" href="">Fighting Talk</a>
+	<br>
+	<a id="subLink" href="">Sport Relief</a>
+	<br>
+	<a id="subLink" href="">Big Splash</a>
 </div>
 
-<div id="RC" style="background-color:#0f0f0f;width:533px;float:left;">
-	Content goes here<br>
+<div id="RC" style="background-color:#FFFFFF;width:533px;float:right;">
+	<img border="0" src="R1.jpg" alt="R1" width="520" height="290">
+		<div id="RLC" style="background-color:#0f0f0f;width220px;float:left;">
+			<img border="0" src="R2.jpg" alt="R2" width="250" height="150">
+				<br>
+				<a href="">Haskell out as six players join England elite squad</a>
+				<br>
+				<a href="http://www.bbc.co.uk/sport/rugby-union">Rugby Union</a>
+		</div>
+		<div id="RRC" style="background-color:#0f0f0f;width:260px;float:right;">
+			<img border="0" src="R3.jpg" alt="R3" width="250" height="150">
+		</div>
 </div>
 
 
